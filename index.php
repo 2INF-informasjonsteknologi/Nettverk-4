@@ -170,7 +170,7 @@ SvartRiktigGanger.innerText = SvartRiktig;
 console.log(SvartRiktig=0);
 
 SvartFeil=0;
-SvartFeilGanger.innerText = SvartRiktig;
+SvartFeilGanger.innerText = SvartFeil;
 console.log(SvartFeil=0);
 }
 }
@@ -208,7 +208,7 @@ console.log(SvartFeil=0);
         svarDiv.textContent = tekst;
         
         SvartFeil+=1;
-        SvartFeilGanger.innerText = SvartRiktig;
+        SvartFeilGanger.innerText = SvartFeil;
         console.log(SvartFeil+1);
 
             // Skjul meldingen etter 3 sekunder
